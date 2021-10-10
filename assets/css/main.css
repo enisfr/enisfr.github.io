@@ -40,10 +40,6 @@ blockquote, q {
 		content: none;
 	}
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 body {
 	-webkit-text-size-adjust: none;
@@ -65,8 +61,6 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
-/* Basic */
 
 	html {
 		box-sizing: border-box;
@@ -206,10 +200,6 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-		-moz-animation: bg 30s linear infinite;
-		-webkit-animation: bg 30s linear infinite;
-		-ms-animation: bg 30s linear infinite;
-		animation: bg 30s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -220,7 +210,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 
 		background: #0e141f url("images/bg.jpg") center;
-		background-repeat: repeat-x;
+		background-repeat: no-repeat;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -294,7 +284,7 @@ input, select, textarea {
 
 	#bg {
 		background-size: 2250px auto;
-		width: 6750px;
+		width: 100%;
 	}
 
 /* Overlay */
@@ -797,8 +787,8 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 1500px auto;
-			width: 4500px;
+			background-size: 1600px auto;
+			width: 100%;
 		} }
 
 /* Normal */
@@ -879,8 +869,8 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 750px auto;
-			width: 2250px;
+			background-size: 1400px auto;
+			width: 100%;
 		} }
 
 /* Mobile */
@@ -965,8 +955,8 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 300px auto;
-			width: 900px;
+			background-size: 1000px auto;
+			width: 100%;
 		}
 
 	/* Header */
@@ -1063,8 +1053,8 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 600px auto;
-			width: 1238px;
+			background-size: 850px auto;
+			width: 100%;
 		}
 
 	/* Header */
